@@ -1,0 +1,12 @@
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", "sans-serif";
+  background-color: $black-100;
+  color: $white;
+  width: 1920px;
+}
