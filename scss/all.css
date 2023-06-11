@@ -253,9 +253,118 @@ body {
 .partner {
   width: 1296px;
   margin: 0 auto;
+  margin-bottom: 160px;
+}
+.partner h3 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 80px;
+}
+.partner ul {
+  display: flex;
+}
+.partner ul img {
+  width: 160px;
+  height: 40px;
 }
 
 .recommend {
   width: 1296px;
   margin: 0 auto;
+}
+.recommend .recommend-card {
+  display: flex;
+  justify-content: space-between;
+}
+.recommend .recommend-card li {
+  width: 416px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.0784313725);
+  border-radius: 16px;
+}
+.recommend .recommend-card li .recommend-star {
+  margin-bottom: 22px;
+}
+.recommend .recommend-card li p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.recommend-name {
+  display: flex;
+  align-items: center;
+}
+.recommend-name img {
+  margin-right: 16px;
+  width: 48px;
+  height: 48px;
+}
+.recommend-name h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+.recommend-name p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bg-white {
+  background-color: #fff;
+  border-radius: 160px;
+}
+.bg-white .tools {
+  width: 1296px;
+  margin: 0 auto;
+}
+.bg-white .tools h2 {
+  color: #000;
+  font-size: 80px;
+  font-weight: 900;
+  padding-top: 160px;
+  margin-bottom: 80px;
+}
+.bg-white .tools .search-bar {
+  width: 1296px;
+  height: 64px;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.bg-white .tools .search-bar img {
+  width: 17.5px;
+  height: 17.5px;
+  color: #919191;
+  margin-left: 40px;
+  margin-right: 15px;
+}
+.bg-white .tools .search-bar input {
+  background: #f2f2f2;
+  border: none;
+}
+
+.tools-search .search-btn {
+  width: 132px;
+  display: flex;
+  align-items: center;
+  border: #f2f2f2 1px solid;
+  border-radius: 16px;
+}
+.tools-search .search-btn a {
+  color: #020202;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  margin-right: 15px;
+}
+.tools-search .search-btn img {
+  width: 10.6px;
+  height: 10.6px;
 }/*# sourceMappingURL=all.css.map */

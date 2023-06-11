@@ -105,9 +105,120 @@
 .partner {
   width: 1296px;
   margin: 0 auto;
+  margin-bottom: 160px;
+  h3 {
+    font-size: $font-m;
+    font-weight: 900;
+    margin-bottom: 80px;
+  }
+  ul {
+    display: flex;
+    img {
+      width: 160px;
+      height: 40px;
+    }
+  }
 }
 
 .recommend {
   width: 1296px;
   margin: 0 auto;
+  .recommend-card {
+    display: flex;
+    justify-content: space-between;
+    li {
+      width: 416px;
+      padding: 40px;
+      background-color: #ffffff14;
+      border-radius: 16px;
+      .recommend-star {
+        margin-bottom: 22px;
+      }
+      p {
+        font-size: $font-s;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.recommend-name {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+  }
+  h4 {
+    font-size: $font-s;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 24px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.bg-white {
+  background-color: #fff;
+  border-radius: 160px;
+  .tools {
+    width: 1296px;
+    margin: 0 auto;
+    h2 {
+      color: #000;
+      font-size: $font-xl;
+      font-weight: 900;
+      padding-top: 160px;
+      margin-bottom: 80px;
+    }
+    .search-bar {
+      width: 1296px;
+      height: 64px;
+      background-color: $black-20;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 24px;
+      img {
+        width: 17.5px;
+        height: 17.5px;
+        color: $black-60;
+        margin-left: 40px;
+        margin-right: 15px;
+      }
+      input {
+        background: $black-20;
+        border: none;
+      }
+    }
+  }
+}
+
+.tools-search {
+  .search-btn {
+    width: 132px;
+    display: flex;
+    align-items: center;
+    border: $black-20 1px solid;
+    border-radius: 16px;
+    a {
+      color: $black-100;
+      text-decoration: none;
+      font-size: $font-s;
+      font-weight: 400;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      margin-right: 15px;
+    }
+    img {
+      width: 10.6px;
+      height: 10.6px;
+    }
+  }
 }
