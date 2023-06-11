@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -347,6 +348,12 @@ body {
   border: none;
 }
 
+.tools-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
 .tools-search .search-btn {
   width: 132px;
   display: flex;
@@ -367,4 +374,80 @@ body {
 .tools-search .search-btn img {
   width: 10.6px;
   height: 10.6px;
+}
+.tools-search ul {
+  width: 544px;
+  display: flex;
+  justify-content: space-between;
+}
+.tools-search ul li {
+  color: #919191;
+  font-size: 16px;
+  font-weight: 400;
+}
+.tools-search .search-btn2 {
+  width: 164px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item li {
+  width: 412px;
+  margin-bottom: 24px;
+  color: #020202;
+  border: 1px solid #f2f2f2;
+  border-radius: 16px;
+  overflow: hidden; /*圖片超過li時隱藏*/
+}
+
+.item img:hover {
+  transform: scale(1.2); /*滑鼠移過去圖片放大1.2倍*/
+}
+
+.img {
+  overflow: hidden; /*避免圖片超過padding的間距*/
+}
+
+.item-name {
+  size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.item-info {
+  size: 14px;
+  color: #525252;
+  height: 42px;
+}
+
+.content,
+.ai,
+.tag {
+  padding: 20px;
+}
+
+.content,
+.ai {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.ai,
+.tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ai-model {
+  size: 16px;
+  font-weight: bold;
+}
+
+.name,
+.item-tag {
+  size: 16px;
 }/*# sourceMappingURL=all.css.map */
