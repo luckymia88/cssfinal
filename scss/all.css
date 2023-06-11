@@ -272,6 +272,7 @@ body {
 .recommend {
   width: 1296px;
   margin: 0 auto;
+  margin-bottom: 160px;
 }
 .recommend .recommend-card {
   display: flex;
