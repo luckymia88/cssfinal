@@ -144,7 +144,7 @@ body {
   font-family: "Noto Sans TC", "sans-serif";
   background-color: #020202;
   color: #ffffff;
-  width: 1920px;
+  max-width: 1920px;
 }
 
 .header {
