@@ -366,6 +366,22 @@
       margin-right: 16px;
     }
   }
+  @media (max-width: 992px) {
+    h2 {
+      padding-left: 180px;
+    }
+    .start-btn {
+      margin-left: 390px;
+    }
+  }
+  @media (max-width: 768px) {
+    h2 {
+      padding-left: 80px;
+    }
+    .start-btn {
+      margin-left: 295px;
+    }
+  }
 }
 
 .sitemap {

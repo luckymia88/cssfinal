@@ -521,6 +521,22 @@ body {
   padding-left: 40px;
   margin-right: 16px;
 }
+@media (max-width: 992px) {
+  .callToAction h2 {
+    padding-left: 180px;
+  }
+  .callToAction .start-btn {
+    margin-left: 390px;
+  }
+}
+@media (max-width: 768px) {
+  .callToAction h2 {
+    padding-left: 80px;
+  }
+  .callToAction .start-btn {
+    margin-left: 295px;
+  }
+}
 
 .sitemap {
   max-width: 1296px;
