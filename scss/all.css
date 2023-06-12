@@ -134,6 +134,11 @@ table {
   border-spacing: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 *,
 *::before,
 ::after {
@@ -218,6 +223,7 @@ body {
   width: 856px;
   font-size: 48px;
   font-weight: 900;
+  line-height: 58px;
 }
 
 .service-list {
