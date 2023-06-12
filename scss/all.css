@@ -148,7 +148,7 @@ body {
 }
 
 .header {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -169,7 +169,7 @@ body {
 }
 
 .banner {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
 }
 .banner h2 {
@@ -204,7 +204,7 @@ body {
 }
 
 .service {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -221,7 +221,7 @@ body {
 }
 
 .service-list {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
 }
 .service-list .list {
@@ -252,7 +252,7 @@ body {
 }
 
 .partner {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   margin-bottom: 160px;
 }
@@ -270,7 +270,7 @@ body {
 }
 
 .recommend {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   margin-bottom: 160px;
 }
@@ -318,7 +318,7 @@ body {
   border-radius: 160px;
 }
 .bg-white .tools {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
 }
 .bg-white .tools h2 {
@@ -329,7 +329,7 @@ body {
   margin-bottom: 80px;
 }
 .bg-white .tools .search-bar {
-  width: 1296px;
+  max-width: 1296px;
   height: 64px;
   background-color: #f2f2f2;
   border-radius: 16px;
@@ -454,7 +454,7 @@ body {
 }
 
 .callToAction {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   margin-top: 158px;
 }
@@ -485,7 +485,7 @@ body {
 }
 
 .sitemap {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -506,26 +506,28 @@ body {
 }
 
 .footer {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .footer .copyright {
-  margin-right: 100px;
+  display: flex;
+  align-items: center;
 }
 .footer .copyright p {
   font-size: 16px;
   font-weight: 700;
+  margin-right: 100px;
 }
-.footer .social-list {
+.footer .copyright .social {
   display: flex;
   align-items: center;
-  margin-right: 682px;
 }
-.footer .social-list a {
+.footer .copyright .social a {
   color: #ffffff;
   text-decoration: none;
   margin-right: 20px;

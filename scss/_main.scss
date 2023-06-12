@@ -1,5 +1,5 @@
 .header {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,7 @@
 }
 
 .banner {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   h2 {
     color: $white;
@@ -55,7 +55,7 @@
 }
 
 .service {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -72,7 +72,7 @@
 }
 
 .service-list {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   .list {
     display: flex;
@@ -103,7 +103,7 @@
 }
 
 .partner {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   margin-bottom: 160px;
   h3 {
@@ -121,7 +121,7 @@
 }
 
 .recommend {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   margin-bottom: 160px;
   .recommend-card {
@@ -168,7 +168,7 @@
   background-color: #fff;
   border-radius: 160px;
   .tools {
-    width: 1296px;
+    max-width: 1296px;
     margin: 0 auto;
     h2 {
       color: #000;
@@ -178,7 +178,7 @@
       margin-bottom: 80px;
     }
     .search-bar {
-      width: 1296px;
+      max-width: 1296px;
       height: 64px;
       background-color: $black-20;
       border-radius: 16px;
@@ -304,7 +304,7 @@
 }
 //---
 .callToAction {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   margin-top: 158px;
   h2 {
@@ -335,7 +335,7 @@
 }
 
 .sitemap {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -358,29 +358,32 @@
 }
 
 .footer {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   .copyright {
-    margin-right: 100px;
+    display: flex;
+    align-items: center;
     p {
       font-size: $font-s;
       font-weight: 700;
+      margin-right: 100px;
     }
-  }
-  .social-list {
-    display: flex;
-    align-items: center;
-    margin-right: 682px;
-    a {
-      color: $white;
-      text-decoration: none;
-      margin-right: 20px;
-      font-size: $font-s;
-      font-weight: 700;
+    .social {
+      display: flex;
+      align-items: center;
+      // margin-right: 682px;
+      a {
+        color: $white;
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: $font-s;
+        font-weight: 700;
+      }
     }
   }
   .top-btn {
